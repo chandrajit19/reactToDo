@@ -13,7 +13,7 @@ const TodoItems=({todoItems, onDeleteClick})=>{
                todoItems.map((item ,i)=>(
 
                         (item.dueDate && item.name) ? ( 
-                            <tr key={`${item.name}-${item.dueDate}`}>
+                            <tr key={`${item.name}-${item.dueDate}`} className="align-middle">
                             <td className="align-middle">
                             <TodoItem  todoDate={item.dueDate}  todoName={item.name} onDeleteClick={onDeleteClick} ></TodoItem>
                             </td>

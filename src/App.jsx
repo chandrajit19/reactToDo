@@ -22,8 +22,8 @@ function App(){
   
   // deleteing item
           const handleDeleteItem= (todoItemName)=>{
-        const newTodoItems=todoItems.filter(item=>item.name !==todoItemName);
-       setTodoItems(newTodoItems)
+          const newTodoItems=todoItems.filter(item=>item.name !==todoItemName);
+          setTodoItems(newTodoItems)
 
   }
   
