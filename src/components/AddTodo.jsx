@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// eslint-disable-next-line react/prop-types
 function AddTodo({onNewItem}){
   const [todoName, setTodoName]=useState("");
   const [dueDate, setDueDate]=useState("");

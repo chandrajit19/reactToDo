@@ -1,6 +1,8 @@
 div{
     margin:auto;
     margin-top: 20px;
+   border-radius: 8px;
+   font-weight: 400;
 }
 input{
     width: 100%;
@@ -12,9 +14,30 @@ button{
     min-width: 80px;
     /* width: 100%; */
 }
+h1{
+    border: none;
+    border-bottom: 6px solid rgba(250, 142, 0, 0.5);
+    border-top: 6px solid rgba(250, 142, 0, 0.5);
+    font-size: 1.6rem !important;
+    padding: 4px 10px;
+    color: rgb(250, 142, 0) !important;
+    border-radius: 10px;
+}
 .row-margin{
     margin: 15px ;
 }
 .col-2{
     text-align: center;
+}
+.min-height {
+    min-height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    font-size: .8rem;
+  }
+  button{
+    font-size: .8rem !important;
+  }
 }
